@@ -1,0 +1,198 @@
+<!--
+theme name:		WahCade 640
+version:		1.0.0
+author:			Some Christ Guy (Rookervik conversion)
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+		
+		<carousel name="systemcarousel">
+			<pos>0 0.490</pos>
+			<size>1 0.2325</size>
+			<color>00000000</color>
+			<logoSize>0.20 0.10</logoSize>
+			<logoScale>1.7</logoScale>
+		</carousel>
+		
+		<text name="systemInfo">
+			<pos>0 0.7</pos>
+			<color>ffffff80</color>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.027</fontSize>
+		</text>
+	
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/system_background.png</path>
+		</image>
+		
+		<image name="carousel_overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>2e3cc9</color>
+			<path>./art/system_carousel.png</path>
+		</image>
+		
+	</view>
+
+    <view name="basic">
+	
+		<image name="background" extra="true">
+			<path>./art/system_background.png</path>
+		</image>
+		
+		<image name="basic_border" extra="true">
+			<path>./art/basic.png</path>
+		</image>	
+
+		<image name="logo">
+			<pos>0.5 0.1083333</pos>
+			<maxSize>0.4375‬ 0.133333</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<text name="md_lbl_playcount">
+			<pos>0.676 0.580</pos>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.829 0.574</pos>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<textlist name="gamelist">
+			<pos>0.1234375 0.245833</pos>
+			<size>0.75 0.633333</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.045</fontSize>
+			<selectorColor>000044</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>909090</primaryColor>
+			<secondaryColor>f0f0f0</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<scrollSound>./sounds/21H.wav</scrollSound>
+		</textlist>
+		
+		<helpsystem name="help">
+			<pos>1 1</pos>
+		</helpsystem>
+
+	</view>
+
+	<view name="detailed">
+	
+		<helpsystem name="help">
+			<pos>1 1</pos>
+		</helpsystem>
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>		
+
+		<image name="md_image">
+			<pos>0.74687 0.52708</pos>
+			<maxSize>0.38125 0.50833</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	
+		<textlist name="gamelist">
+			<pos>0.0578125 0.275</pos>
+			<size>0.375 0.641</size>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>1.25</lineSpacing>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/font.ttf</fontPath>
+			<selectorColor>574181</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>f0f0f0</secondaryColor>
+			<!--<forceUppercase>0</forceUppercase>-->
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+		
+		<text name="txt_allgames" extra="true">
+			<color>ffffff</color>
+			<pos>0.6 0.8520833</pos>	
+			<size>0.2953125 0.072917</size>
+			<fontPath>./art/font.ttf</fontPath>
+			<alignment>center</alignment>
+			<fontSize>0.035</fontSize>
+			<text>All Games</text>
+		</text>
+		
+		<text name="md_lbl_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<!--- This will enable Player Count under the screenshot --->
+			<!---<pos>0.686 0.573</pos>--->
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		<text name="md_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<!--- This will enable Player Count under the screenshot.--->
+			<!---<pos>0.830 0.567</pos>--->
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>			
+		
+	</view>	
+
+	<view name="basic, detailed">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed,">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_description">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+			<filledPath>./art/invisible.png</filledPath>
+			<unfilledPath>./art/invisible.png</unfilledPath>
+		</rating>
+
+	</view>	
+
+
+</theme>

@@ -1,0 +1,58 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../wahcade.xml</include>
+	
+	<variables>
+		<themeColor>04A5FF</themeColor>
+	</variables>
+
+
+	<view name="system">
+	
+		<image name="carousel_overlay" extra="true">
+			<color>${themeColor}</color>
+		</image>
+		
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+		
+	</view>
+
+	<view name="basic, detailed">
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+		<image name="basic_border" extra="true">
+			<color>${themeColor}</color>
+		</image>
+		
+		<textlist name="gamelist">
+			<primaryColor>${themeColor}</primaryColor>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+	
+		<image name="background" extra="true">
+			<path>./main.jpg</path>
+		</image>
+		
+		<textlist name="gamelist">
+		<!--== THIS IS WHERE YOU CHANGE FONT COLOR IN GAME LIST ==-->
+			<selectorColor>0000ff</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>${themeColor}</primaryColor>
+			<secondaryColor>f0f0f0</secondaryColor>
+		</textlist>
+
+	</view>
+	
+</theme>

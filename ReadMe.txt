@@ -1,1 +1,0 @@
-This is the EmuChrist theme for Emulation Station 2.11.2. This theme was originally hosted at emuchrist.org. It has been ported to MaLa, WahCade, and MameWah. This is the Emulation Station version. PSD Layout Masters.

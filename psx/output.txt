@@ -1,0 +1,484 @@
+Aug 27 23:28:48 Info:   ES-DE 3.3.0 (r49), built Aug 18 2025 - 01:49:09
+Aug 27 23:28:48 Info:   Application language set to "en_US"
+Aug 27 23:28:48 Info:   Creating window...
+Aug 27 23:28:48 Info:   Using display: 1
+Aug 27 23:28:48 Info:   Screen offset: disabled
+Aug 27 23:28:48 Info:   Screen rotation: disabled
+Aug 27 23:28:49 Info:   Display resolution: 1920x1080
+Aug 27 23:28:49 Info:   Display refresh rate: 60 Hz
+Aug 27 23:28:49 Info:   Application resolution: 1920x1080
+Aug 27 23:28:49 Info:   Screen mode: fullscreen
+Aug 27 23:28:49 Info:   Setting up OpenGL...
+Aug 27 23:28:49 Info:   GL vendor: AMD
+Aug 27 23:28:49 Info:   GL renderer: AMD Radeon RX 550 / 550 Series (radeonsi, polaris12, LLVM 17.0.6, DRM 3.57, 6.4.0-150600.23.60-default)
+Aug 27 23:28:49 Info:   GL version: 4.6 (Core Profile) Mesa 23.3.4
+Aug 27 23:28:49 Info:   Application renderer: OpenGL 3.3
+Aug 27 23:28:49 Info:   Anti-aliasing: disabled
+Aug 27 23:28:49 Info:   VSync: enabled
+Aug 27 23:28:49 Info:   Loading shaders...
+Aug 27 23:28:49 Info:   Setting up InputManager...
+Aug 27 23:28:49 Info:   No input configuration file found, default mappings will be applied
+Aug 27 23:28:49 Info:   Added keyboard with default configuration
+Aug 27 23:28:49 Info:   Added controller with default configuration: "Mad Catz Inc. PS3 RF pad" (GUID: 0300be0d380700002888000001010000, serial number: n/a, instance ID: 0, device index: 0)
+Aug 27 23:28:49 Info:   Checking for application updates...
+Aug 27 23:28:49 Info:   Setting up AudioManager...
+Aug 27 23:28:49 Info:   Audio driver: pulseaudio
+Aug 27 23:28:49 Info:   Detected playback device: Family 17h (Models 00h-0fh) HD Audio Controller Analog Stereo
+Aug 27 23:28:49 Debug:  AudioManager::init(): Requested sample buffer size 512 could not be set, obtained 1024
+Aug 27 23:28:49 Info:   SDL version: 2.32.2
+Aug 27 23:28:49 Info:   Parsing MAME names file "/usr/share/es-de/resources/MAME/mamenames.xml"...
+Aug 27 23:28:49 Info:   Parsing MAME BIOSes file "/usr/share/es-de/resources/MAME/mamebioses.xml"...
+Aug 27 23:28:49 Info:   Parsing MAME devices file "/usr/share/es-de/resources/MAME/mamedevices.xml"...
+Aug 27 23:28:49 Info:   Checking for available themes...
+Aug 27 23:28:49 Debug:  Loading theme capabilities for "/usr/share/es-de/themes/linear-es-de"...
+Aug 27 23:28:49 Info:   Added theme "/usr/share/es-de/themes/linear-es-de" ("Linear")
+Aug 27 23:28:49 Debug:  Theme includes support for 6 variants, 5 color schemes, 2 font sizes, 4 aspect ratios, 3 transitions and 21 languages
+Aug 27 23:28:49 Debug:  Loading theme capabilities for "/usr/share/es-de/themes/modern-es-de"...
+Aug 27 23:28:49 Info:   Added theme "/usr/share/es-de/themes/modern-es-de" ("Modern")
+Aug 27 23:28:49 Debug:  Theme includes support for 5 variants, 2 color schemes, 2 font sizes, 4 aspect ratios, 3 transitions and 0 languages
+Aug 27 23:28:49 Debug:  Loading theme capabilities for "/usr/share/es-de/themes/slate-es-de"...
+Aug 27 23:28:49 Info:   Added theme "/usr/share/es-de/themes/slate-es-de" ("Slate")
+Aug 27 23:28:49 Debug:  Theme includes support for 3 variants, 2 color schemes, 2 font sizes, 4 aspect ratios, 3 transitions and 0 languages
+Aug 27 23:28:49 Debug:  Loading theme capabilities for "/usr/share/es-de/themes/wahcade"...
+Aug 27 23:28:49 Warn:   No capabilities.xml file found, this does not appear to be a valid theme: "/usr/share/es-de/themes/wahcade"
+Aug 27 23:28:49 Debug:  Loading theme capabilities for "/home/masterz/ES-DE/themes/canvas-es-de"...
+Aug 27 23:28:49 Info:   Added theme "/home/masterz/ES-DE/themes/canvas-es-de" ("Canvas")
+Aug 27 23:28:49 Debug:  Theme includes support for 16 variants, 60 color schemes, 4 font sizes, 8 aspect ratios, 1 transition and 0 languages
+Aug 27 23:28:49 Debug:  Loading theme capabilities for "/home/masterz/ES-DE/themes/emuchrist"...
+Aug 27 23:28:49 Info:   Added theme "/home/masterz/ES-DE/themes/emuchrist"
+Aug 27 23:28:49 Debug:  Theme includes support for 0 variants, 0 color schemes, 0 font sizes, 0 aspect ratios, 0 transitions and 0 languages
+Aug 27 23:28:49 Info:   Loading emulator find rules...
+Aug 27 23:28:49 Info:   Parsing find rules configuration file "/usr/share/es-de/resources/systems/linux/es_find_rules.xml"...
+Aug 27 23:28:49 Info:   Loading system import rules...
+Aug 27 23:28:49 Info:   Parsing import rules configuration file "/usr/share/es-de/resources/systems/linux/es_import_rules.xml"...
+Aug 27 23:28:49 Info:   Populating game systems...
+Aug 27 23:28:49 Info:   Found custom systems configuration file
+Aug 27 23:28:49 Info:   Parsing systems configuration file "/home/masterz/ES-DE/custom_systems/es_systems.xml"...
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/megadriveplus-retroarch/gamelist.xml"...
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/megadriveplus/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/megadriveplus/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Info:   Parsing systems configuration file "/usr/share/es-de/resources/systems/linux/es_systems.xml"...
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/3do/gamelist.xml"...
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/3do/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/3do/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "adam" as the defined ROM directory "/opt/var/public/roms/adam" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "ags" as the defined ROM directory "/opt/var/public/roms/ags" does not exist
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/amiga/gamelist.xml"...
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "amiga" has a valid alternativeEmulator entry: "FS-UAE (Standalone)"
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/amiga/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/amiga/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "amiga1200" as the defined ROM directory "/opt/var/public/roms/amiga1200" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "amiga600" as the defined ROM directory "/opt/var/public/roms/amiga600" does not exist
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/amigacd32/gamelist.xml"...
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "amigacd32" has a valid alternativeEmulator entry: "FS-UAE (Standalone)"
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/amigacd32/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/amigacd32/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "amstradcpc" as the defined ROM directory "/opt/var/public/roms/amstradcpc" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "android" as the defined ROM directory "/opt/var/public/roms/android" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "androidapps" as the defined ROM directory "/opt/var/public/roms/androidapps" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "androidgames" as the defined ROM directory "/opt/var/public/roms/androidgames" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "apple2" as the defined ROM directory "/opt/var/public/roms/apple2" does not exist
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/apple2gs/gamelist.xml"...
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/apple2gs/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/apple2gs/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "arcade" as the defined ROM directory "/opt/var/public/roms/arcade" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "arcadia" as the defined ROM directory "/opt/var/public/roms/arcadia" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "archimedes" as the defined ROM directory "/opt/var/public/roms/archimedes" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "arduboy" as the defined ROM directory "/opt/var/public/roms/arduboy" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "astrocde" as the defined ROM directory "/opt/var/public/roms/astrocde" does not exist
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atari2600" does not have a gamelist.xml file
+Aug 27 23:28:49 Debug:  ApplicationUpdater::downloadFile(): Downloaded "latest_release.json" in 298 milliseconds
+Aug 27 23:28:49 Debug:  ApplicationUpdater::parseFile(): Latest stable release is 3.3.0 (r49), no prerelease currently available
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atari2600/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atari2600/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atari5200" does not have a gamelist.xml file
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atari5200/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atari5200/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atari7800" does not have a gamelist.xml file
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atari7800/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atari7800/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atari800" does not have a gamelist.xml file
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atari800/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atari800/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/atarijaguar/gamelist.xml"...
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atarijaguar" has a valid alternativeEmulator entry: "BigPEmu"
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atarijaguar/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atarijaguar/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "atarijaguarcd" as the defined ROM directory "/opt/var/public/roms/atarijaguarcd" does not exist
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atarilynx" does not have a gamelist.xml file
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atarilynx/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atarilynx/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/atarist/gamelist.xml"...
+Aug 27 23:28:49 Debug:  GamelistFileParser::parseGamelist(): System "atarist" has a valid alternativeEmulator entry: "Hatari (Standalone)"
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/atarist/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/atarist/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "atarixe" as the defined ROM directory "/opt/var/public/roms/atarixe" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "atomiswave" as the defined ROM directory "/opt/var/public/roms/atomiswave" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "bbcmicro" as the defined ROM directory "/opt/var/public/roms/bbcmicro" does not exist
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/c64/gamelist.xml"...
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/c64/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/c64/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "cdimono1" as the defined ROM directory "/opt/var/public/roms/cdimono1" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "cdtv" as the defined ROM directory "/opt/var/public/roms/cdtv" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "chailove" as the defined ROM directory "/opt/var/public/roms/chailove" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "channelf" as the defined ROM directory "/opt/var/public/roms/channelf" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "coco" as the defined ROM directory "/opt/var/public/roms/coco" does not exist
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/colecovision/gamelist.xml"...
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/colecovision/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/colecovision/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "consolearcade" as the defined ROM directory "/opt/var/public/roms/consolearcade" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "cps" as the defined ROM directory "/opt/var/public/roms/cps" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "cps1" as the defined ROM directory "/opt/var/public/roms/cps1" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "cps2" as the defined ROM directory "/opt/var/public/roms/cps2" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "cps3" as the defined ROM directory "/opt/var/public/roms/cps3" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "crvision" as the defined ROM directory "/opt/var/public/roms/crvision" does not exist
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "daphne" as the defined ROM directory "/opt/var/public/roms/daphne" does not exist
+Aug 27 23:28:49 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/desktop/gamelist.xml"...
+Aug 27 23:28:49 Warn:   File "/opt/var/public/roms/desktop/Zelda - Return of the Hylian.desktop" does not exist, skipping entry
+Aug 27 23:28:49 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/desktop/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/desktop/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:49 Debug:  SystemData::loadConfig(): Skipping system "doom" as the defined ROM directory "/opt/var/public/roms/doom" does not exist
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden directory "/opt/var/public/roms/dos/Blake Stone Aliens of Gold/.mojosetup"
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/dos/MW2/MechWarrior-2-31st-Century-Combat/MECH2/.DBLOCALFILE_ATR_DOS4G.EXE"
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/dos/MW2/MechWarrior-2-31st-Century-Combat/MECH2/.DBLOCALFILE_ATR_DOS4GW.EXE"
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/dos/MW2/MechWarrior-2-31st-Century-Combat/MECH2/SND/.DBLOCALFILE_ATR_SND.BAT"
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/dos/MW2-Ghost-Bears-Legacy/MechWarrior-2-Ghost-Bears-Legacy/GBL/SND/.DBLOCALFILE_ATR_SND.BAT"
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/dos/Mech2-Rip/Mechwarrior2 - 31st Century Combat/SND/.DBLOCALFILE_ATR_SND.BAT"
+Aug 27 23:28:49 Debug:  SystemData::populateFolder(): Skipping hidden directory "/opt/var/public/roms/dos/Wacky Wheels/.mojosetup"
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/dos/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "dos" has a valid alternativeEmulator entry: "DOSBox-X (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/dos/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/dos/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "dragon32" as the defined ROM directory "/opt/var/public/roms/dragon32" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/dreamcast/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/dreamcast/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/dreamcast/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "easyrpg" as the defined ROM directory "/opt/var/public/roms/easyrpg" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "electron" as the defined ROM directory "/opt/var/public/roms/electron" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "emulators" as the defined ROM directory "/opt/var/public/roms/emulators" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "epic" as the defined ROM directory "/opt/var/public/roms/epic" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "famicom" as the defined ROM directory "/opt/var/public/roms/famicom" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "fba" as the defined ROM directory "/opt/var/public/roms/fba" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "fbneo" as the defined ROM directory "/opt/var/public/roms/fbneo" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/fds/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "fds" has a valid alternativeEmulator entry: "Mednafen (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/fds/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/fds/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "flash" as the defined ROM directory "/opt/var/public/roms/flash" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "fm7" as the defined ROM directory "/opt/var/public/roms/fm7" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/fmtowns/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "fmtowns" has a valid alternativeEmulator entry: "Tsugaru (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/fmtowns/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/fmtowns/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "fpinball" as the defined ROM directory "/opt/var/public/roms/fpinball" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "gamate" as the defined ROM directory "/opt/var/public/roms/gamate" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "gameandwatch" as the defined ROM directory "/opt/var/public/roms/gameandwatch" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "gamecom" as the defined ROM directory "/opt/var/public/roms/gamecom" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "gamegear" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/gamegear/theme.xml": Couldn't find file "./logo-hd.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/gamegear/logo-hd.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/gamegear/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/gamegear/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/gb/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/gb/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/gb/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "gba" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/gba/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/gba/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/gbc/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "gbc" has a valid alternativeEmulator entry: "TGB Dual"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/gbc/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/gbc/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "gc" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/gc/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/gc/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/genesis/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/genesis/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/genesis/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "gmaster" as the defined ROM directory "/opt/var/public/roms/gmaster" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "gx4000" as the defined ROM directory "/opt/var/public/roms/gx4000" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "intellivision" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/intellivision/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/intellivision/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "j2me" as the defined ROM directory "/opt/var/public/roms/j2me" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "kodi" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/kodi/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/kodi/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "laserdisc" as the defined ROM directory "/opt/var/public/roms/laserdisc" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "lcdgames" as the defined ROM directory "/opt/var/public/roms/lcdgames" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "lowresnx" as the defined ROM directory "/opt/var/public/roms/lowresnx" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "lutris" as the defined ROM directory "/opt/var/public/roms/lutris" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "lutro" as the defined ROM directory "/opt/var/public/roms/lutro" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "macintosh" as the defined ROM directory "/opt/var/public/roms/macintosh" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/mame/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/mame/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/mame/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "mame-advmame" as the defined ROM directory "/opt/var/public/roms/mame-advmame" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "mark3" as the defined ROM directory "/opt/var/public/roms/mark3" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "mastersystem" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/mastersystem/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/mastersystem/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "megacd" as the defined ROM directory "/opt/var/public/roms/megacd" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "megacdjp" as the defined ROM directory "/opt/var/public/roms/megacdjp" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "megadrive" as the defined ROM directory "/opt/var/public/roms/megadrive" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "megadrivejp" as the defined ROM directory "/opt/var/public/roms/megadrivejp" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "megaduck" as the defined ROM directory "/opt/var/public/roms/megaduck" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "mess" as the defined ROM directory "/opt/var/public/roms/mess" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "model2" as the defined ROM directory "/opt/var/public/roms/model2" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "model3" as the defined ROM directory "/opt/var/public/roms/model3" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "moto" as the defined ROM directory "/opt/var/public/roms/moto" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "msx" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/msx/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/msx/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "msx1" as the defined ROM directory "/opt/var/public/roms/msx1" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/msx2/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/msx2/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/msx2/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "msxturbor" as the defined ROM directory "/opt/var/public/roms/msxturbor" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "mugen" as the defined ROM directory "/opt/var/public/roms/mugen" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "multivision" as the defined ROM directory "/opt/var/public/roms/multivision" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "n3ds" as the defined ROM directory "/opt/var/public/roms/n3ds" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "n64" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/n64/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/n64/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "n64dd" as the defined ROM directory "/opt/var/public/roms/n64dd" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "naomi" as the defined ROM directory "/opt/var/public/roms/naomi" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "naomi2" as the defined ROM directory "/opt/var/public/roms/naomi2" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "naomigd" as the defined ROM directory "/opt/var/public/roms/naomigd" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/nds/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/nds/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/nds/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/neogeo/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/neogeo/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/neogeo/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/neogeocd/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/neogeocd/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/neogeocd/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "neogeocdjp" as the defined ROM directory "/opt/var/public/roms/neogeocdjp" does not exist
+Aug 27 23:28:50 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/nes/Legend of Zelda, The (U) (PRG1) [!]/src/.gitignore"
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/nes/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "nes" has a valid alternativeEmulator entry: "Mednafen (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/nes/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/nes/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "ngage" as the defined ROM directory "/opt/var/public/roms/ngage" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "ngp" as the defined ROM directory "/opt/var/public/roms/ngp" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "ngpc" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/ngpc/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/ngpc/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "odyssey2" as the defined ROM directory "/opt/var/public/roms/odyssey2" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "openbor" does not have a gamelist.xml file
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "openbor" as no files matched any of the defined file extensions
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "oric" as the defined ROM directory "/opt/var/public/roms/oric" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "palm" as the defined ROM directory "/opt/var/public/roms/palm" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "pc" as the defined ROM directory "/opt/var/public/roms/pc" does not exist
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "pc88" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/pc88/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/pc88/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "pc98" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/pc98/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/pc98/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "pcarcade" as the defined ROM directory "/opt/var/public/roms/pcarcade" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/pcengine/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/pcengine/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/pcengine/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/pcenginecd/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "pcenginecd" has a valid alternativeEmulator entry: "Mednafen (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/pcenginecd/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/pcenginecd/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "pcfx" does not have a gamelist.xml file
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/pcfx/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/pcfx/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "pico8" as the defined ROM directory "/opt/var/public/roms/pico8" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "plus4" as the defined ROM directory "/opt/var/public/roms/plus4" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "pokemini" as the defined ROM directory "/opt/var/public/roms/pokemini" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "ports" as the defined ROM directory "/opt/var/public/roms/ports" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/ps2/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "ps2" has a valid alternativeEmulator entry: "PCSX2 (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/ps2/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/ps2/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "ps3" as the defined ROM directory "/opt/var/public/roms/ps3" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "ps4" as the defined ROM directory "/opt/var/public/roms/ps4" does not exist
+Aug 27 23:28:50 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/psp/.directory"
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/psp/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "psp" has a valid alternativeEmulator entry: "PPSSPP (Standalone)"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/psp/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/psp/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "psvita" as the defined ROM directory "/opt/var/public/roms/psvita" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/psx/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/psx/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/psx/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "pv1000" as the defined ROM directory "/opt/var/public/roms/pv1000" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "quake" as the defined ROM directory "/opt/var/public/roms/quake" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "samcoupe" as the defined ROM directory "/opt/var/public/roms/samcoupe" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "satellaview" as the defined ROM directory "/opt/var/public/roms/satellaview" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/saturn/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/saturn/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/saturn/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "saturnjp" as the defined ROM directory "/opt/var/public/roms/saturnjp" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "scummvm" as the defined ROM directory "/opt/var/public/roms/scummvm" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "scv" as the defined ROM directory "/opt/var/public/roms/scv" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/sega32x/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/sega32x/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/sega32x/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "sega32xjp" as the defined ROM directory "/opt/var/public/roms/sega32xjp" does not exist
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "sega32xna" as the defined ROM directory "/opt/var/public/roms/sega32xna" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/segacd/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/segacd/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/segacd/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::loadConfig(): Skipping system "sfc" as the defined ROM directory "/opt/var/public/roms/sfc" does not exist
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/sg-1000/gamelist.xml"...
+Aug 27 23:28:50 Debug:  GamelistFileParser::parseGamelist(): System "sg-1000" has a valid alternativeEmulator entry: "blueMSX"
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/sg-1000/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/sg-1000/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/sgb/gamelist.xml"...
+Aug 27 23:28:50 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/sgb/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/sgb/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:50 Debug:  SystemData::populateFolder(): Skipping hidden file "/opt/var/public/roms/snes/__MACOSX/._readme.txt"
+Aug 27 23:28:50 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/snes/gamelist.xml"...
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/snes/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/snes/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "snesna" as the defined ROM directory "/opt/var/public/roms/snesna" does not exist
+Aug 27 23:28:51 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/solarus/gamelist.xml"...
+Aug 27 23:28:51 Warn:   File "/opt/var/public/roms/solarus/zelda-roth-se-1.2.1.solarus" does not exist, skipping entry
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "spectravideo" as the defined ROM directory "/opt/var/public/roms/spectravideo" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "steam" as the defined ROM directory "/opt/var/public/roms/steam" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "stv" as the defined ROM directory "/opt/var/public/roms/stv" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "sufami" as the defined ROM directory "/opt/var/public/roms/sufami" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "supergrafx" as the defined ROM directory "/opt/var/public/roms/supergrafx" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "supervision" as the defined ROM directory "/opt/var/public/roms/supervision" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "supracan" as the defined ROM directory "/opt/var/public/roms/supracan" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "switch" as the defined ROM directory "/opt/var/public/roms/switch" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "symbian" as the defined ROM directory "/opt/var/public/roms/symbian" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "tanodragon" as the defined ROM directory "/opt/var/public/roms/tanodragon" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "tg16" as the defined ROM directory "/opt/var/public/roms/tg16" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "tg-cd" as the defined ROM directory "/opt/var/public/roms/tg-cd" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "ti99" as the defined ROM directory "/opt/var/public/roms/ti99" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "tic80" as the defined ROM directory "/opt/var/public/roms/tic80" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "to8" as the defined ROM directory "/opt/var/public/roms/to8" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "triforce" as the defined ROM directory "/opt/var/public/roms/triforce" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "trs-80" as the defined ROM directory "/opt/var/public/roms/trs-80" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "type-x" as the defined ROM directory "/opt/var/public/roms/type-x" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "uzebox" as the defined ROM directory "/opt/var/public/roms/uzebox" does not exist
+Aug 27 23:28:51 Debug:  GamelistFileParser::parseGamelist(): System "vectrex" does not have a gamelist.xml file
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/vectrex/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/vectrex/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "vic20" as the defined ROM directory "/opt/var/public/roms/vic20" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "videopac" as the defined ROM directory "/opt/var/public/roms/videopac" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "vircon32" as the defined ROM directory "/opt/var/public/roms/vircon32" does not exist
+Aug 27 23:28:51 Debug:  GamelistFileParser::parseGamelist(): System "virtualboy" does not have a gamelist.xml file
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/virtualboy/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/virtualboy/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "vpinball" as the defined ROM directory "/opt/var/public/roms/vpinball" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "vsmile" as the defined ROM directory "/opt/var/public/roms/vsmile" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "wasm4" as the defined ROM directory "/opt/var/public/roms/wasm4" does not exist
+Aug 27 23:28:51 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/wii/gamelist.xml"...
+Aug 27 23:28:51 Debug:  GamelistFileParser::parseGamelist(): System "wii" has a valid alternativeEmulator entry: "Dolphin (Standalone)"
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/wii/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/wii/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "wiiu" as the defined ROM directory "/opt/var/public/roms/wiiu" does not exist
+Aug 27 23:28:51 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/windows/gamelist.xml"...
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/windows/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/windows/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "windows3x" as the defined ROM directory "/opt/var/public/roms/windows3x" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "windows9x" as the defined ROM directory "/opt/var/public/roms/windows9x" does not exist
+Aug 27 23:28:51 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/wonderswan/gamelist.xml"...
+Aug 27 23:28:51 Warn:   File "/opt/var/public/roms/wonderswan/color/Rockman EXE WS (J).zip" does not exist, skipping entry
+Aug 27 23:28:51 Warn:   Folder "/opt/var/public/roms/wonderswan/color" does not exist, skipping entry
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/wonderswan/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/wonderswan/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/wonderswancolor/gamelist.xml"...
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/wonderswancolor/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/wonderswancolor/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "x1" as the defined ROM directory "/opt/var/public/roms/x1" does not exist
+Aug 27 23:28:51 Info:   Parsing gamelist file "/home/masterz/ES-DE/gamelists/x68000/gamelist.xml"...
+Aug 27 23:28:51 Warn:   ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/x68000/theme.xml": Couldn't find file "./art/invisible.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/x68000/art/invisible.png" (element type "image", name "logo", property "path")
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "xbox" as the defined ROM directory "/opt/var/public/roms/xbox" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "xbox360" as the defined ROM directory "/opt/var/public/roms/xbox360" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "xboxone" as the defined ROM directory "/opt/var/public/roms/xboxone" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "zmachine" as the defined ROM directory "/opt/var/public/roms/zmachine" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "zx81" as the defined ROM directory "/opt/var/public/roms/zx81" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "zxnext" as the defined ROM directory "/opt/var/public/roms/zxnext" does not exist
+Aug 27 23:28:51 Debug:  SystemData::loadConfig(): Skipping system "zxspectrum" as the defined ROM directory "/opt/var/public/roms/zxspectrum" does not exist
+Aug 27 23:28:51 Debug:  No systems sorting file loaded
+Aug 27 23:28:51 Info:   Parsed configuration for 196 systems, loaded 59 systems (collections not included)
+Aug 27 23:28:51 Info:   Total game count: 23591
+Aug 27 23:28:51 Debug:  ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/theme.xml" -> "/home/masterz/ES-DE/themes/emuchrist/emuchrist.xml": Couldn't find file "./${system.theme}/logo.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/auto-allgames/logo.png" (element type "carousel", name "systemcarousel", property "staticImage")
+Aug 27 23:28:51 Debug:  ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/theme.xml" -> "/home/masterz/ES-DE/themes/emuchrist/emuchrist.xml": Couldn't find file "./${system.theme}/logo.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/auto-favorites/logo.png" (element type "carousel", name "systemcarousel", property "staticImage")
+Aug 27 23:28:51 Debug:  ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/theme.xml" -> "/home/masterz/ES-DE/themes/emuchrist/emuchrist.xml": Couldn't find file "./${system.theme}/logo.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/auto-lastplayed/logo.png" (element type "carousel", name "systemcarousel", property "staticImage")
+Aug 27 23:28:51 Debug:  ThemeData::parseElement(): "/home/masterz/ES-DE/themes/emuchrist/theme.xml" -> "/home/masterz/ES-DE/themes/emuchrist/emuchrist.xml": Couldn't find file "./${system.theme}/logo.png" which resolves to "/home/masterz/ES-DE/themes/emuchrist/custom-collections/logo.png" (element type "carousel", name "systemcarousel", property "staticImage")
+Aug 27 23:28:51 Debug:  SystemView::populate(): Populating primary element...
+Aug 27 23:28:51 Debug:  ViewController::preload(): Populating gamelist for system "3do"
+Aug 27 23:28:51 Debug:  ViewController::preload(): Populating gamelist for system "apple2gs"
+Aug 27 23:28:51 Debug:  ViewController::preload(): Populating gamelist for system "atari2600"
+Aug 27 23:28:51 Debug:  ViewController::preload(): Populating gamelist for system "atari5200"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "atari7800"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "atari800"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "atarijaguar"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "atarilynx"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "atarist"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "wonderswan"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "wonderswancolor"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "colecovision"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "c64"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "amiga"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "amigacd32"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "desktop"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "dos"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "fmtowns"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "vectrex"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "kodi"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "intellivision"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "windows"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "msx"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "msx2"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "mame"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "pcengine"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "pcenginecd"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "pc88"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "pc98"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "pcfx"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "n64"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "nds"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "nes"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "fds"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "gb"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "gba"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "gbc"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "gc"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "snes"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "sgb"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "virtualboy"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "wii"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "segacd"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "dreamcast"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "gamegear"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "genesis"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "mastersystem"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "sega32x"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "megadriveplus-retroarch"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "saturn"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "sg-1000"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "x68000"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "neogeo"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "neogeocd"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "ngpc"
+Aug 27 23:28:52 Debug:  ViewController::preload(): Populating gamelist for system "solarus"
+Aug 27 23:28:53 Debug:  ViewController::preload(): Populating gamelist for system "psx"
+Aug 27 23:28:53 Debug:  ViewController::preload(): Populating gamelist for system "ps2"
+Aug 27 23:28:53 Debug:  ViewController::preload(): Populating gamelist for system "psp"
+Aug 27 23:28:53 Debug:  NavigationSounds::loadThemeNavigationSounds(): Theme does not include navigation sound support, using fallback sounds
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "systembrowse"
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "quicksysselect"
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "select"
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "back"
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "scroll"
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "favorite"
+Aug 27 23:28:53 Debug:  Sound::getFromTheme(): Using fallback sound file for "launch"
+Aug 27 23:28:53 Info:   Finished loading theme "emuchrist"
+Aug 27 23:28:53 Info:   Theme does not have multilingual support
+Aug 27 23:28:53 Info:   No application updates available
+Aug 27 23:28:53 Info:   Application startup time: 4219 ms
+Aug 27 23:28:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:28:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:28:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:28:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:28:56 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:28:56 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:00 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:00 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:01 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0+, isMappedTo=leftthumbstickright, value=1
+Aug 27 23:29:01 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:05 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0+, isMappedTo=leftthumbstickright, value=1
+Aug 27 23:29:05 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:08 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0+, isMappedTo=leftthumbstickright, value=1
+Aug 27 23:29:08 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:09 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:09 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:10 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:10 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:12 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Button 0, isMappedTo=a, value=1
+Aug 27 23:29:12 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Button 0, isMappedTo=a, value=0
+Aug 27 23:29:14 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Button 1, isMappedTo=b, value=1
+Aug 27 23:29:14 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Button 1, isMappedTo=b, value=0
+Aug 27 23:29:16 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:16 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:16 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:16 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:18 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0+, isMappedTo=leftthumbstickright, value=1
+Aug 27 23:29:18 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:19 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0+, isMappedTo=leftthumbstickright, value=1
+Aug 27 23:29:19 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:54 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:54 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:54 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:54 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:55 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:56 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:29:56 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:29:59 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:00 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:01 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0+, isMappedTo=leftthumbstickright, value=1
+Aug 27 23:30:01 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:03 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:03 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:05 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:05 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:06 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:06 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:08 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:08 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:11 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:11 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:12 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:12 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:13 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:13 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:14 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0-, isMappedTo=leftthumbstickleft, value=-1
+Aug 27 23:30:15 Debug:  Window::logInput(Mad Catz Inc. PS3 RF pad): Axis 0 , isMappedTo=leftthumbstickleft, leftthumbstickright, value=0
+Aug 27 23:30:36 Debug:  Window::logInput(Keyboard): Key Left Alt, isMappedTo=value=1
+Aug 27 23:30:37 Info:   ES-DE cleanly shutting down

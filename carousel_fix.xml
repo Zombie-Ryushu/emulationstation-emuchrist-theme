@@ -1,0 +1,10 @@
+        <carousel name="systemcarousel">
+            <pos>0 0.490</pos>
+            <size>1 0.2325</size>
+            <color>00000000</color>
+            <itemSize>0.20 0.10</itemSize>
+            <itemScale>1.7</itemScale>
+            <staticImage>./${system.theme}/logo.png</staticImage>
+            <defaultImage>./art/system_logo_default.png</defaultImage>
+            <maxItemCount>5</maxItemCount>
+        </carousel>

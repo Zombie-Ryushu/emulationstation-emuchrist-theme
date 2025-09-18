@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <include>./../emuchrist.xml</include>
+  <variables>
+    <themeColor>2C3188</themeColor>
+  </variables>
+
+  <!-- System view -->
+  <view name="system">
+    <image name="carousel_overlay">
+      <color>${themeColor}</color>
+    </image>
+    <image name="logo">
+      <path>./solarus.svg</path>
+    </image>
+  </view>
+
+  <!-- Gamelist view -->
+  <view name="gamelist">
+    <!-- Background first -->
+    <image name="background">
+      <path>./main.png</path>
+    </image>
+
+    <!-- System logo -->
+    <image name="logo">
+      <path>./openbor.svg</path>
+    </image>
+
+    <!-- Basic border -->
+    <image name="basic_border">
+      <color>${themeColor}</color>
+    </image>
+
+    <!-- Transparent overlay -->
+    <image name="gamelist-overlay">
+      <path>./gamelist-solarus.png</path>
+      <pos>0.046 0.260</pos>
+      <size>0.396 0.670</size>
+      <origin>0 0</origin>
+    </image>
+
+    <!-- Transparent overlay -->
+    <image name="screenshot-overlay">
+      <path>./screenshot-solarus.png</path>
+      <pos>0.74687 0.52708</pos>
+      <size>0.420 0.53833</size> <!-- widened width -->
+      <zIndex>35</zIndex>
+      <origin>0.5 0.5</origin>
+     </image>
+
+    <!-- Gamelist text -->
+    <textlist name="gamelist">
+      <selectorColor>0000ff</selectorColor>
+      <selectedColor>A8C69F</selectedColor>
+      <primaryColor>${themeColor}</primaryColor>
+      <secondaryColor>f0f0f0</secondaryColor>
+    </textlist>
+  </view>
+</theme>

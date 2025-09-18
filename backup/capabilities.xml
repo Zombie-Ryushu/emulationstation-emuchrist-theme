@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themeCapabilities>
+    <variants>
+        <variant>
+            <name>detailed</name>
+            <label>Detailed View</label>
+            <selectable>true</selectable>
+        </variant>
+    </variants>
+    <aspectRatios>
+        <aspectRatio>
+            <name>16:9</name>
+            <label>16:9</label>
+        </aspectRatio>
+        <aspectRatio>
+            <name>4:3</name>
+            <label>4:3</label>
+        </aspectRatio>
+    </aspectRatios>
+</themeCapabilities>

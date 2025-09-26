@@ -1,0 +1,13 @@
+WahCade to ES-DE Theme Conversion Summary
+=========================================
+
+Changes Made:
+1. Created capabilities.xml for ES-DE compatibility
+2. Removed formatVersion tags
+3. Removed extra attributes
+4. Converted view names:
+   - "basic" -> "gamelist"
+   - "detailed" -> "gamelist"  
+   - "basic, detailed" -> "gamelist"
+5. Consolidated duplicate view definitions
+6. Fixed carousel

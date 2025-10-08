@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <include>./../emuchrist.xml</include>
+  <variables>
+    <themeColor>FF0117</themeColor>
+  </variables>
+  <view name="system">
+    <image name="carousel_overlay">
+      <color>${themeColor}</color>
+    </image>
+    <image name="logo">
+      <path>./logo.png</path>
+    </image>
+  </view>
+  <view name="gamelist">
+    <image name="logo">
+      <path>./art/invisible.png</path>
+    </image>
+    <image name="basic_border">
+      <color>${themeColor}</color>
+    </image>
+    <textlist name="gamelist">
+      <primaryColor>${themeColor}</primaryColor>
+    </textlist>
+    <image name="background">
+      <path>./main.jpg</path>
+    </image>
+    <textlist name="gamelist">
+      <selectorColor>0000ff</selectorColor>
+      <selectedColor>ffffff</selectedColor>
+      <primaryColor>${themeColor}</primaryColor>
+      <secondaryColor>f0f0f0</secondaryColor>
+    </textlist>
+  </view>
+</theme>

@@ -2,7 +2,7 @@
 <theme>
   <include>./../emuchrist.xml</include>
   <variables>
-    <themeColor>2C3188</themeColor>
+    <themeColor>FF0000</themeColor>
   </variables>
 
   <!-- System view -->
@@ -11,7 +11,7 @@
       <color>${themeColor}</color>
     </image>
     <image name="logo">
-      <path>./solarus.svg</path>
+      <path>./openbor.svg</path>
     </image>
   </view>
 
@@ -34,7 +34,7 @@
 
     <!-- Transparent overlay -->
     <image name="gamelist-overlay">
-      <path>./gamelist-solarus.png</path>
+      <path>./gamelist-openbor.png</path>
       <pos>0.046 0.260</pos>
       <size>0.396 0.670</size>
       <origin>0 0</origin>
@@ -42,12 +42,19 @@
 
     <!-- Transparent overlay -->
     <image name="screenshot-overlay">
-      <path>./screenshot-solarus.png</path>
+      <path>./screenshot-openbor.png</path>
       <pos>0.74687 0.52708</pos>
       <size>0.420 0.53833</size> <!-- widened width -->
       <zIndex>35</zIndex>
       <origin>0.5 0.5</origin>
      </image>
+
+     <!-- Transparent overlay -->
+      <image name="favorites-overlay">
+      <path>./favorites-openbor.png</path>
+      <pos>0.6 0.8520833</pos>    
+      <size>0.2953125 0.072917</size>
+    </image>
 
     <!-- Gamelist text -->
     <textlist name="gamelist">

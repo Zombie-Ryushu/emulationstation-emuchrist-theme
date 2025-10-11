@@ -4,27 +4,59 @@
   <variables>
     <themeColor>00A1DE</themeColor>
   </variables>
+
+  <!-- System view -->
   <view name="system">
     <image name="carousel_overlay">
       <color>${themeColor}</color>
     </image>
     <image name="logo">
-      <path>./logo.png</path>
+      <path>./neogeocd.svg</path>
     </image>
   </view>
+
+  <!-- Gamelist view -->
   <view name="gamelist">
-    <image name="logo">
-      <path>./art/invisible.png</path>
+    <!-- Background first -->
+    <image name="background">
+      <path>./main.png</path>
     </image>
+
+    <!-- System logo -->
+    <image name="logo">
+      <path>./neogeocd.svg</path>
+    </image>
+
+    <!-- Basic border -->
     <image name="basic_border">
       <color>${themeColor}</color>
     </image>
-    <textlist name="gamelist">
-      <primaryColor>${themeColor}</primaryColor>
-    </textlist>
-    <image name="background">
-      <path>./main.jpg</path>
+
+    <!-- Transparent overlay -->
+    <image name="gamelist-overlay">
+      <path>./gamelist-neogeocd.png</path>
+      <pos>0.046 0.260</pos>
+      <size>0.396 0.670</size>
+      <origin>0 0</origin>
     </image>
+
+    <!-- Transparent overlay -->
+    <image name="screenshot-overlay">
+      <path>./screenshot-neogeocd.png</path>
+      <pos>0.74687 0.52708</pos>
+      <size>0.420 0.53833</size> <!-- widened width -->
+      <zIndex>35</zIndex>
+      <origin>0.5 0.5</origin>
+     </image>
+
+          <!-- Transparent overlay -->
+    <image name="favorites-overlay">
+      <path>./favorites-neogeocd.png</path>
+      <pos>0.6 0.8520833</pos>    
+      <size>0.2953125 0.072917</size>
+    </image>
+
+    <!-- Gamelist text -->
     <textlist name="gamelist">
       <selectorColor>0000ff</selectorColor>
       <selectedColor>ffffff</selectedColor>

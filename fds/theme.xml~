@@ -2,7 +2,7 @@
 <theme>
   <include>./../emuchrist.xml</include>
   <variables>
-    <themeColor>FF621E</themeColor>
+    <themeColor>D91F29</themeColor>
   </variables>
 
   <!-- System view -->
@@ -11,7 +11,7 @@
       <color>${themeColor}</color>
     </image>
     <image name="logo">
-      <path>./logo.png</path>
+      <path>./fds.svg</path>
     </image>
   </view>
 
@@ -24,7 +24,7 @@
 
     <!-- System logo -->
     <image name="logo">
-      <path>./logo.png</path>
+      <path>./fds.svg</path>
     </image>
 
     <!-- Basic border -->
@@ -34,7 +34,7 @@
 
     <!-- Transparent overlay -->
     <image name="gamelist-overlay">
-      <path>./gamelist-desktop.png</path>
+      <path>./gamelist-fds.png</path>
       <pos>0.046 0.260</pos>
       <size>0.396 0.670</size>
       <origin>0 0</origin>
@@ -42,7 +42,7 @@
 
     <!-- Transparent overlay -->
     <image name="screenshot-overlay">
-      <path>./screenshot-desktop.png</path>
+      <path>./screenshot-fds.png</path>
       <pos>0.74687 0.52708</pos>
       <size>0.420 0.53833</size> <!-- widened width -->
       <zIndex>35</zIndex>
@@ -51,7 +51,7 @@
 
           <!-- Transparent overlay -->
     <image name="favorites-overlay">
-      <path>./favorites-desktop.png</path>
+      <path>./favorites-fds.png</path>
       <pos>0.6 0.8520833</pos>    
       <size>0.2953125 0.072917</size>
     </image>
